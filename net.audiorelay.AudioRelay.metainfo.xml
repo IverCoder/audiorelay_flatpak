@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2024 IverCoder -->
+<component type="desktop-application">
+  <id>net.audiorelay.AudioRelay</id>
+  
+  <name>AudioRelay</name>
+  <summary>Stream audio between your devices</summary>
+  <developer id="net.audiorelay">
+    <name>Asapha Halifa</name>
+    <url>https://audiorelay.net/</url>
+  </developer>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  
+  <recommends>
+    <control>pointing</control>
+    <display_length compare="ge">medium</display_length>
+  </recommends>
+  <supports>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  
+  <description>
+    <p>
+      Turn your phone into a microphone or speakers for PC.
+    </p>
+    <p>
+      Use your phone as a microphone for your PC. Need a mic? Don&apos;t panic, you can use your smartphone. AudioRelay records your phone&apos;s mic and sends it to your PC over Wi-Fi.
+    </p>
+    <p>
+      Use your phone as a speaker for PC. With AudioRelay, you can stream your PC&apos;s audio to your phone in real-time. You can move around the house or listen far away without disturbing anyone.
+    </p>
+  </description>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#BBDEFB</color>
+    <color type="primary" scheme_preference="dark">#001B33</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <url type="bugtracker">https://community.audiorelay.net/c/bug-reports/</url>
+  <url type="homepage">https://audiorelay.net/</url>
+  <url type="contact">mailto:hello@audiorelay.net</url>
+  <url type="faq">https://docs.audiorelay.net/faq</url>
+  <url type="translate">https://translations.audiorelay.net/</url>
+  
+  <launchable type="desktop-id">net.audiorelay.AudioRelay.desktop</launchable>
+  <!-- <screenshots>
+    <screenshot type="default">
+      <image>https://tobefilledup1.com/</image>
+    </screenshot>
+    <screenshot>
+      <image>https://tobefilledup2.com/</image>
+    </screenshot>
+  </screenshots> -->
+  <releases>
+    <release version="0.27.5" date="2023-03-15">
+    <url type="details">https://community.audiorelay.net/t/audiorelay-0-27/</url>
+      <description>
+        <ul>
+          <li>Reworked the audio handling</li>
+          <li>Fixes(Linux): Audio not playing or not being captured</li>
+          <li>Fixes(Linux, macOS): Crashes on Linux and macOS</li>
+          <li>UI: Added Ukrainian and Indonesian languages</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
